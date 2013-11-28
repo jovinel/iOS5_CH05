@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000BF93D1846ECF7006FB821 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000BF93C1846ECF7006FB821 /* UIKit.framework */; };
+		000BF93F1846ECF7006FB821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000BF93E1846ECF7006FB821 /* Foundation.framework */; };
+		000BF9411846ECF7006FB821 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000BF9401846ECF7006FB821 /* CoreGraphics.framework */; };
+		000BF9471846ECF7006FB821 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000BF9451846ECF7006FB821 /* InfoPlist.strings */; };
+		000BF9491846ECF7006FB821 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000BF9481846ECF7006FB821 /* main.m */; };
+		000BF94D1846ECF7006FB821 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000BF94C1846ECF7006FB821 /* BIDAppDelegate.m */; };
+		000BF9501846ECF7006FB821 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000BF94F1846ECF7006FB821 /* BIDViewController.m */; };
+		000BF9531846ECF7006FB821 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000BF9511846ECF7006FB821 /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000BF9381846ECF7006FB821 /* iOS5_CH05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS5_CH05.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000BF93C1846ECF7006FB821 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		000BF93E1846ECF7006FB821 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		000BF9401846ECF7006FB821 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		000BF9441846ECF7006FB821 /* iOS5_CH05-Info.plist */ = {isa = PBXFileReference; path = "iOS5_CH05-Info.plist"; sourceTree = "<group>"; };
+		000BF9461846ECF7006FB821 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		000BF9481846ECF7006FB821 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		000BF94A1846ECF7006FB821 /* iOS5_CH05-Prefix.pch */ = {isa = PBXFileReference; path = "iOS5_CH05-Prefix.pch"; sourceTree = "<group>"; };
+		000BF94B1846ECF7006FB821 /* BIDAppDelegate.h */ = {isa = PBXFileReference; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		000BF94C1846ECF7006FB821 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		000BF94E1846ECF7006FB821 /* BIDViewController.h */ = {isa = PBXFileReference; path = BIDViewController.h; sourceTree = "<group>"; };
+		000BF94F1846ECF7006FB821 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		000BF9521846ECF7006FB821 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000BF9351846ECF7006FB821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000BF93D1846ECF7006FB821 /* UIKit.framework in Frameworks */,
+				000BF93F1846ECF7006FB821 /* Foundation.framework in Frameworks */,
+				000BF9411846ECF7006FB821 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000BF92D1846ECF7006FB821 = {
+			isa = PBXGroup;
+			children = (
+				000BF9421846ECF7006FB821 /* iOS5_CH05 */,
+				000BF93B1846ECF7006FB821 /* Frameworks */,
+				000BF9391846ECF7006FB821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000BF9391846ECF7006FB821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000BF9381846ECF7006FB821 /* iOS5_CH05.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000BF93B1846ECF7006FB821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000BF93C1846ECF7006FB821 /* UIKit.framework */,
+				000BF93E1846ECF7006FB821 /* Foundation.framework */,
+				000BF9401846ECF7006FB821 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		000BF9421846ECF7006FB821 /* iOS5_CH05 */ = {
+			isa = PBXGroup;
+			children = (
+				000BF94B1846ECF7006FB821 /* BIDAppDelegate.h */,
+				000BF94C1846ECF7006FB821 /* BIDAppDelegate.m */,
+				000BF94E1846ECF7006FB821 /* BIDViewController.h */,
+				000BF94F1846ECF7006FB821 /* BIDViewController.m */,
+				000BF9511846ECF7006FB821 /* BIDViewController.xib */,
+				000BF9431846ECF7006FB821 /* Supporting Files */,
+			);
+			path = iOS5_CH05;
+			sourceTree = "<group>";
+		};
+		000BF9431846ECF7006FB821 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				000BF9441846ECF7006FB821 /* iOS5_CH05-Info.plist */,
+				000BF9451846ECF7006FB821 /* InfoPlist.strings */,
+				000BF9481846ECF7006FB821 /* main.m */,
+				000BF94A1846ECF7006FB821 /* iOS5_CH05-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000BF9371846ECF7006FB821 /* iOS5_CH05 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000BF9561846ECF7006FB821 /* Build configuration list for PBXNativeTarget "iOS5_CH05" */;
+			buildPhases = (
+				000BF9341846ECF7006FB821 /* Sources */,
+				000BF9351846ECF7006FB821 /* Frameworks */,
+				000BF9361846ECF7006FB821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS5_CH05;
+			productName = iOS5_CH05;
+			productReference = 000BF9381846ECF7006FB821 /* iOS5_CH05.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000BF92F1846ECF7006FB821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 000BF9321846ECF7006FB821 /* Build configuration list for PBXProject "iOS5_CH05" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 000BF92D1846ECF7006FB821;
+			productRefGroup = 000BF9391846ECF7006FB821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000BF9371846ECF7006FB821 /* iOS5_CH05 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000BF9361846ECF7006FB821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000BF9471846ECF7006FB821 /* InfoPlist.strings in Resources */,
+				000BF9531846ECF7006FB821 /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000BF9341846ECF7006FB821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000BF9491846ECF7006FB821 /* main.m in Sources */,
+				000BF94D1846ECF7006FB821 /* BIDAppDelegate.m in Sources */,
+				000BF9501846ECF7006FB821 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		000BF9451846ECF7006FB821 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000BF9461846ECF7006FB821 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		000BF9511846ECF7006FB821 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000BF9521846ECF7006FB821 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		000BF9541846ECF7006FB821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		000BF9551846ECF7006FB821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000BF9571846ECF7006FB821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS5_CH05/iOS5_CH05-Prefix.pch";
+				INFOPLIST_FILE = "iOS5_CH05/iOS5_CH05-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		000BF9581846ECF7006FB821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS5_CH05/iOS5_CH05-Prefix.pch";
+				INFOPLIST_FILE = "iOS5_CH05/iOS5_CH05-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000BF9321846ECF7006FB821 /* Build configuration list for PBXProject "iOS5_CH05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000BF9541846ECF7006FB821 /* Debug */,
+				000BF9551846ECF7006FB821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000BF9561846ECF7006FB821 /* Build configuration list for PBXNativeTarget "iOS5_CH05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000BF9571846ECF7006FB821 /* Debug */,
+				000BF9581846ECF7006FB821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000BF92F1846ECF7006FB821 /* Project object */;
+}
